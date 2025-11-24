@@ -1,4 +1,4 @@
-# High-Volume Legal Document OCR Pipeline
+# High-Volume Document OCR Pipeline
 
 An enterprise-grade Optical Character Recognition (OCR) pipeline designed for processing high volumes of complex legal documents (multi-column forms, handwriting, tables). This project leverages **DeepSeek-OCR (VLM)** for state-of-the-art layout preservation and text extraction.
 
