@@ -216,6 +216,8 @@ You can further customize the pipeline by adjusting:
    
    Run the first cell to install all required packages:
    ```python
+   # Note: Specific versions are installed automatically
+   # See requirements.txt for exact version specifications
    !pip install transformers tokenizers einops pillow pdf2image PyPDF2
    !apt-get install poppler-utils
    ```
@@ -428,7 +430,7 @@ This project demonstrates:
 - Use Python 3.10 or 3.11 (not 3.12+ due to compatibility)
 - Create fresh virtual environment: `python -m venv venv`
 - Update pip: `pip install --upgrade pip`
-- Install specific versions: `pip install transformers==4.46.3`
+- Install dependencies from requirements.txt: `pip install -r requirements.txt`
 - Check system architecture (ARM vs x86_64)
 
 ### Getting Help
